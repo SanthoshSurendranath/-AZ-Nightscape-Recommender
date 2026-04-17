@@ -8,7 +8,7 @@
 
 This repository presents a data science project focused on improving late-night dining discovery across Arizona through Natural Language Processing (NLP), topic modelling, exploratory data analysis, and recommendation logic.
 
-The objective is to transform restaurant-related information into a structured, business-ready experience that supports better user discovery and more relevant suggestions. The project is designed as a portfolio-ready analytics solution that combines insight generation with practical recommendation capabilities.
+The solution transforms restaurant-related information into a structured, business-ready experience that supports better user discovery and more relevant suggestions. It is designed as a portfolio-ready analytics project that combines insight generation with practical recommendation capabilities.
 
 ---
 
@@ -17,9 +17,24 @@ The objective is to transform restaurant-related information into a structured, 
 The objective of this project is to support users in identifying relevant late-night dining options in Arizona by:
 
 - Organizing unstructured or semi-structured restaurant information
-- Extracting topics and patterns from text-based data
+- Extracting themes and patterns from text-based data
 - Supporting recommendation use cases with a data-driven workflow
 - Improving discoverability through insight-led analysis
+
+---
+
+## Project Values
+
+| Value | Description |
+|---|---|
+| Geography | Arizona |
+| Domain | Late-night dining and restaurant discovery |
+| Input Type | Text-based, categorical, and analytical data |
+| Core Techniques | NLP, topic modelling, exploratory analysis, recommendation logic |
+| Output Focus | Better discovery and more relevant dining suggestions |
+| Project Status | Complete |
+
+> The repository emphasizes insight generation and recommendation support rather than a single supervised prediction target.
 
 ---
 
@@ -32,19 +47,6 @@ This project centers on three core analytics areas:
 | Exploratory Data Analysis | Understand patterns, distributions, and structure in the available data |
 | Topic Modelling | Extract themes and recurring concepts from text content |
 | Recommendation System | Surface relevant dining options based on the project logic and available signals |
-
----
-
-## Data Characteristics
-
-| Element | Description |
-|---|---|
-| Domain | Late-night dining and restaurant discovery in Arizona |
-| Input Type | Text-based, categorical, and analytical data |
-| Core Techniques | NLP, topic modelling, exploratory analysis, recommendation logic |
-| Output Focus | Better discovery and more relevant dining suggestions |
-
-> The repository emphasizes insight generation and recommendation support rather than a single supervised prediction target.
 
 ---
 
@@ -108,24 +110,6 @@ AZ-Nightscape-Recommender/
 - Exploratory analysis for understanding the dataset
 - Recommendation-oriented workflow for better discovery
 - Corporate-style presentation suitable for a data science portfolio
-
----
-
-## Setup
-
-Clone the repository and install the required dependencies:
-
-```bash
-git clone https://github.com/SanthoshSurendranath/-AZ-Nightscape-Recommender.git
-cd -AZ-Nightscape-Recommender
-pip install -r requirements.txt
-```
-
-If a `requirements.txt` file is not available, install the core libraries manually:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn nltk spacy
-```
 
 ---
 
