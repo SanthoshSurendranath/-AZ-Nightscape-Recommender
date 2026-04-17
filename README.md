@@ -4,11 +4,11 @@
 
 ---
 
-## Executive Summary
+## Overview
 
-This repository presents a data science project focused on improving late-night dining discovery across Arizona through Natural Language Processing (NLP), topic modelling, exploratory data analysis, and recommendation logic. The goal is to transform restaurant-related information into a structured, business-ready experience that supports better user discovery and more relevant suggestions.
+This repository presents a data science project focused on improving late-night dining discovery across Arizona through Natural Language Processing (NLP), topic modelling, exploratory data analysis, and recommendation logic.
 
-The project is designed as a portfolio-ready, corporate-style analytics solution that combines insight generation with practical recommendation capabilities.
+The objective is to transform restaurant-related information into a structured, business-ready experience that supports better user discovery and more relevant suggestions. The project is designed as a portfolio-ready analytics solution that combines insight generation with practical recommendation capabilities.
 
 ---
 
@@ -32,6 +32,19 @@ This project centers on three core analytics areas:
 | Exploratory Data Analysis | Understand patterns, distributions, and structure in the available data |
 | Topic Modelling | Extract themes and recurring concepts from text content |
 | Recommendation System | Surface relevant dining options based on the project logic and available signals |
+
+---
+
+## Data Characteristics
+
+| Element | Description |
+|---|---|
+| Domain | Late-night dining and restaurant discovery in Arizona |
+| Input Type | Text-based, categorical, and analytical data |
+| Core Techniques | NLP, topic modelling, exploratory analysis, recommendation logic |
+| Output Focus | Better discovery and more relevant dining suggestions |
+
+> The repository emphasizes insight generation and recommendation support rather than a single supervised prediction target.
 
 ---
 
@@ -98,7 +111,25 @@ AZ-Nightscape-Recommender/
 
 ---
 
-## How to Use
+## Setup
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/SanthoshSurendranath/-AZ-Nightscape-Recommender.git
+cd -AZ-Nightscape-Recommender
+pip install -r requirements.txt
+```
+
+If a `requirements.txt` file is not available, install the core libraries manually:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn nltk spacy
+```
+
+---
+
+## How to Run
 
 1. Open the project files included in the repository.
 2. Review the exploratory analysis and text-processing steps.
